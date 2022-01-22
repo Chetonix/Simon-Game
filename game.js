@@ -12,9 +12,8 @@ function newSequence() {
     .fadeOut(100)
     .fadeIn(100);
 
-  let audio = new Audio("sounds/green.mp3");
+  var audio = new Audio("sounds/green.mp3");
   audio.play();
 }
-$(window).load(function () {
-  newSequence();
-});
+
+newSequence();
